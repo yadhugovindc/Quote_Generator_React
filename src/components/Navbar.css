@@ -1,0 +1,10 @@
+.Navbar img{
+  height: 10px;
+}
+.custom-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+nav{
+  background: url('https://img.freepik.com/premium-vector/black-background-with-luxurious-gold-effect-vector-illustration_41084-760.jpg?ga=GA1.1.1211554208.1733224352&semt=ais_hybrid');
+}

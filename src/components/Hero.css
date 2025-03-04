@@ -1,0 +1,17 @@
+
+.hero{
+ min-height: 80vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+@media screen and (max-width: 768px){
+ .card-container Button{
+    margin-bottom: 5px;
+    width: 200px;
+ }
+  
+}
