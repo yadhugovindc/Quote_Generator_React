@@ -12,9 +12,15 @@ function App() {
   const [unsuccess,setUnsuccess]=useState(null)
  
   const fetchData = async () => {
-    const {data}=await axios.get('https://dummyjson.com/quotes')
-    console.log(data);
-    setQuotes([data.quotes[Math.floor(data.quotes.length*(Math.random()))]]);
+    try {
+      const {data}=await axios.get('https://dummyjson.com/quotes')
+      console.log(data);
+      setQuotes([data.quotes[Math.floor(data.quotes.length*(Math.random()))]]);
+    } catch (error) {
+      console.log("error is",error);
+      
+    }
+   
   }
   const savedata=(item1,item2)=>{
     if(!savedQuotes.some((item)=>item.quotes==item1)){
