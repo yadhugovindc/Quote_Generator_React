@@ -42,7 +42,7 @@ const Hero = ({quotes,fetchData,savedata,addalert,unsuccess}) => {
           {/* <h1 className='fw-bolder'>Quote of the day</h1>
           <p className='fs-italic'>"{item.quote}"</p>
           <p>-- {item.author}</p> */}
-          <div className='d-flex'>
+          <div className='d-md-flex'>
           <Button variant="outlined" onClick={fetchData} className='me-2 text-nowrap'>Genate new Quote</Button>
           <Button variant="outlined" onClick={()=>copyData(`${item.quote}--${item.author}`)} className='me-2 text-nowrap'>Copy to Clipboard</Button>
           <Button variant="outlined" onClick={()=>savedata(`${item.quote}`,`${item.author}`)} className='text-nowrap'>Add to saved list</Button>
